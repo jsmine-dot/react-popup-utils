@@ -57,10 +57,11 @@ PopupUtils.propType={
     setTimeout:PropTypes.bool,
     timeoutTime:PropTypes.number,
     closeOnEscape:PropTypes.bool,
-    closeOnClickOutSide:PropTypes.bool
+    closeOnClickOutSide:PropTypes.bool,
+    closeOnSelfClick:PropTypes.bool
 }
 PopupUtils.defaultProps={
-    setTimeout:true,
+    setTimeout:false,
     timeoutTime:1500,
     closeOnEscape:true,
     closeOnClickOutSide:true,

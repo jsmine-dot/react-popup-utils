@@ -6,6 +6,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manish1993singh/react-popup-utils.git"
+  },
+  "keywords": [
+    "react",
+    "popup",
+    "wrapper",
+    "react-component"
+  ],
   "author": "'manish <manish1993singh@gmail.com>",
   "license": "ISC",
   "dependencies": {
