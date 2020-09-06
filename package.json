@@ -1,0 +1,16 @@
+{
+  "name": "@jsmine/react-popup-utils",
+  "version": "1.0.1",
+  "description": "'utility functions for popup'",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "'manish <manish1993singh@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
