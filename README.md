@@ -1,11 +1,9 @@
 # react-popup-utils
----
 A react component which can be used as wrapper for any popup. 
 This component easily detects mouse clicks done on its wrapped element or out side and triggers the call back.
 It also triggers callback on `esc` key and on `timeout`.
 
 ## Getting Started
----
 install the react-popup-utils via npm:
 ```
 npm i @jsmine/react-popup-utils
@@ -24,7 +22,6 @@ wrap your popup:
 ```
 
 ## Props
----
 | props | type | default value | description|
 | --------------- | --------------- | --------------- | --------------- |
 | closePopup | function | none | function passed in this prop will be called on getting clicked or on other callback triggers |
@@ -35,6 +32,5 @@ wrap your popup:
 | timeoutTime | number | 1500 milliseconds | it takes timeout time in millisecond |
 
 ## Keywords
----
 react popup wrapper react-component
 
