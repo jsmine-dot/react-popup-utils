@@ -31,6 +31,3 @@ wrap your popup:
 | setTimeout | bool | false | if set true, popup close handler will trigger after specified time |
 | timeoutTime | number | 1500 milliseconds | it takes timeout time in millisecond |
 
-## Keywords
-react popup wrapper react-component
-
