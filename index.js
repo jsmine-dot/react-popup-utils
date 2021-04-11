@@ -33,7 +33,7 @@ export default function PopupUtils(props){
     }
     function keyDownClosePopup(event) {
         if(event.keyCode === 27){
-            this.props.closePopup();
+            props.closePopup();
         }
     }
     return React.createElement(Wrapper,{ref:popupRef},props.children)
