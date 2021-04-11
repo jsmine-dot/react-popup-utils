@@ -36,7 +36,7 @@ export default function PopupUtils(props){
             this.props.closePopup();
         }
     }
-    return React.cloneElement(<Wrapper/>,{ref:popupRef},props.children)
+    return React.createElement(Wrapper,{ref:popupRef},props.children)
 }
 class Wrapper extends Component {
     render() {
