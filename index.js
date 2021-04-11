@@ -17,7 +17,7 @@ export default function PopupUtils(props){
         }
         return ()=>{
             document.removeEventListener("click",closePopup);
-            document.addEventListener("keydown",keyDownClosePopup);
+            document.removeEventListener("keydown",keyDownClosePopup);
             clearTimeout(timeOut.current);
         }
     },[props.children])
