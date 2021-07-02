@@ -1,14 +1,11 @@
 {
   "name": "@jsmine/react-popup-utils",
-  "version": "2.0.1",
+  "version": "2.0.5",
   "description": "'utility functions for popup'",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/manish1993singh/react-popup-utils.git"
+    "url": "https://github.com/jsmine-dot/react-popup-utils.git"
   },
   "keywords": [
     "react",
@@ -18,9 +15,9 @@
   ],
   "author": "'manish <manish1993singh@gmail.com>",
   "license": "ISC",
-  "dependencies": {
-    "prop-types": "^15.7.2",
+  "peerDependencies": {
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "prop-types": "^15.7.2"
   }
 }
