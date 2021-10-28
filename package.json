@@ -28,6 +28,7 @@
     "@babel/plugin-transform-runtime": "^7.15.8",
     "@babel/preset-env": "^7.15.8",
     "@babel/preset-react": "^7.14.5",
+    "@babel/runtime": "^7.15.4",
     "@testing-library/react": "^12.1.2",
     "babel-jest": "^27.3.1",
     "jest": "^27.3.1",
@@ -36,8 +37,5 @@
     "react-dom": "^17.0.2",
     "react-test-renderer": "^17.0.2",
     "regenerator-runtime": "^0.13.9"
-  },
-  "dependencies": {
-    "@babel/runtime": "^7.15.4"
   }
 }
