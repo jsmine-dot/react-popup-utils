@@ -3,6 +3,8 @@ A react component which can be used as wrapper for any popup.
 This component easily detects mouse clicks done on its wrapped element or out side and triggers the call back.
 It also triggers callback on `esc` key and on `timeout`.
 
+[Example](https://codesandbox.io/s/ecstatic-kirch-pkw8e)
+
 ## Getting Started
 install the react-popup-utils via npm:
 ```
