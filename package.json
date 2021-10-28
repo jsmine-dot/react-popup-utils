@@ -3,6 +3,10 @@
   "version": "2.0.5",
   "description": "'utility functions for popup'",
   "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "test": "jest"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/jsmine-dot/react-popup-utils.git"
@@ -16,8 +20,22 @@
   "author": "'manish <manish1993singh@gmail.com>",
   "license": "ISC",
   "peerDependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@babel/preset-react": "^7.14.5",
+    "@babel/runtime": "^7.15.4",
+    "@testing-library/react": "^12.1.2",
+    "babel-jest": "^27.3.1",
+    "jest": "^27.3.1",
+    "prop-types": "^15.7.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "prop-types": "^15.7.2"
+    "react-test-renderer": "^17.0.2",
+    "regenerator-runtime": "^0.13.9"
   }
 }
