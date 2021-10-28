@@ -3,3 +3,4 @@
 *.*.map
 *.md
 /.idea/
+/test/
